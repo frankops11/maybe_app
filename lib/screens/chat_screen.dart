@@ -34,7 +34,10 @@ class ChatScreen extends StatelessWidget {
                         );
                 },
               )),
-              const MessageFieldBox()
+              MessageFieldBox(
+                // onValueChanged: (value) => chatProvider.sendMessage(value),
+                onValueChanged: chatProvider.sendMessage,
+              )
             ],
           ),
         )));
