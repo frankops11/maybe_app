@@ -3,10 +3,8 @@
 A new Flutter project.
 
 ## Funny demo
-<video width="360" height="auto" controls>
-  <source src="./videos/20230618_124420.mp4" type="video/mp4">
-</video>
 
+<image src="./images/ezgif.com-video-to-gif.gif" width="360" />
 ## Getting Started
 
 This project is a starting point for a Flutter application.
