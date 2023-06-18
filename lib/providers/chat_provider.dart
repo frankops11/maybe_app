@@ -7,8 +7,13 @@ class ChatProvider extends ChangeNotifier {
   final GetYesNoAnswer getYesNoAnswer = GetYesNoAnswer();
 
   List<MessageEntity> messageList = [
-    MessageEntity(text: 'Hola amor!', fromWho: FromWho.me),
-    MessageEntity(text: 'Ya regresaste del trabajo?', fromWho: FromWho.me)
+    MessageEntity(text: 'Hola, lista para jugar', fromWho: FromWho.me),
+    MessageEntity(text: 'a preguntas de si o no?', fromWho: FromWho.me),
+    MessageEntity(
+        text: 'Claro, estoy muy emocionada!!',
+        fromWho: FromWho.her,
+        imageUrl:
+            'https://yesno.wtf/assets/yes/7-653c8ee5d3a6bbafd759142c9c18d76c.gif')
   ];
 
   Future<void> sendMessage(String text) async {

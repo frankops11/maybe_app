@@ -29,7 +29,9 @@ class ChatScreen extends StatelessWidget {
                   final message = chatProvider.messageList[index];
 
                   return (message.fromWho == FromWho.her)
-                      ? const HerBubbleMessage()
+                      ? HerBubbleMessage(
+                          message: message,
+                        )
                       : MeBubbleMessage(
                           message: message,
                         );
