@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:maybe_app/models/message.dart';
+import 'package:maybe_app/entities/message_entity.dart';
 import 'package:maybe_app/providers/chat_provider.dart';
 import 'package:maybe_app/widgets/chat_header.dart';
 import 'package:maybe_app/widgets/her_bubble_message.dart';

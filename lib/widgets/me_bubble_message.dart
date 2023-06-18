@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:maybe_app/models/message.dart';
+import 'package:maybe_app/entities/message_entity.dart';
 
 class MeBubbleMessage extends StatelessWidget {
-  final Message message;
+  final MessageEntity message;
 
   const MeBubbleMessage({required this.message, super.key});
 
